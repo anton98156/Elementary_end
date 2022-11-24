@@ -23,6 +23,7 @@ string [] ReadArray (){
     return result;
 }
 
+
 void PrintArray(string [] array){
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -30,3 +31,4 @@ void PrintArray(string [] array){
 
     }
 }
+
