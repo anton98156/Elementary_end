@@ -3,3 +3,9 @@
 
 
 
+
+string [] array = ReadArray();
+PrintArray(array);
+Console.WriteLine();
+PrintArray(Change (array));
+
