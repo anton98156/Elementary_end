@@ -32,3 +32,23 @@ void PrintArray(string [] array){
     }
 }
 
+
+string[] Change(string[] array){
+    int Count = 0;
+    int Add = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if(array[i].Length <= 3) {
+        Count++;
+        }
+    }
+    string [] result = new string[Count];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if(array[i].Length <= 3) {
+        result[Add] = array[i];
+        Add++;
+        }
+    }
+    return result;
+}
